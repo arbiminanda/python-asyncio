@@ -63,5 +63,5 @@ async def manage_task(endpoint):
 
 if __name__ == "__main__":
     # Replace with your actual SSE endpoint URL
-    SSE_ENDPOINT = "http://api.smartfarm.id/condition/getsetpoint/13?b62242c0c350116d3ce1c7a758a4c9eb47d189a9489ee217ed8453bee683405d6b79056046ae10ecdc91f9ce8cee1320b555e5f51d672e"  # Replace with your SSE endpoint
+    SSE_ENDPOINT = "https://api.smartfarm.id/condition/getsetpoint/13?b62242c0c350116d3ce1c7a758a4c9eb47d189a9489ee217ed8453bee683405d6b79056046ae10ecdc91f9ce8cee1320b555e5f51d672e"  # Replace with your SSE endpoint
     asyncio.run(manage_task(SSE_ENDPOINT))
